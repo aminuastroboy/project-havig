@@ -1,6 +1,7 @@
-import base64 from io import BytesIO
-
-import streamlit as st from gtts import gTTS
+import base64
+from io import BytesIO
+import streamlit as st
+from gtts import gTTS
 
 st.set_page_config( page_title="Hanif's Arabic Alphabet Game", page_icon="🧸", layout="wide", )
 
